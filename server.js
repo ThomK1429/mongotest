@@ -34,7 +34,7 @@ app.use(routes);
 
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 //var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
-var MONGODB_URI = mongodb://heroku_6v70b9vb:1ll3kce23a0go0ethltsbarr9d@ds123499.mlab.com:23499/heroku_6v70b9vb || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = "mongodb://heroku_6v70b9vb:1ll3kce23a0go0ethltsbarr9d@ds123499.mlab.com:23499/heroku_6v70b9vb" || "mongodb://localhost/mongoHeadlines";
 
 
 //MONGODB_URI: mongodb://heroku_6v70b9vb:1ll3kce23a0go0ethltsbarr9d@ds123499.mlab.com:23499/heroku_6v70b9vb
